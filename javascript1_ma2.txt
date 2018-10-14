@@ -2,7 +2,7 @@
 
 1. What is a function literal?
 
-	
+	Little documentation on the actual term "function literal" on my main sources: w3schools and MDN. I understand that it is a way to define function objects and that it is a function expression. When not given a name it is also what is called an anonymous function.
 
 
 
