@@ -2,9 +2,23 @@
 
 1. What is a function literal?
 
+	
+
+
+
 2. What is the constructor?
 
+	The constructor method is a special method for creating and initializing an object created withing a class. -MDN
+	Couldn't have said it any easier myself. However as everything in JavaScript is an object, I've heard throughout the week people refering to the "()" after a function name or keyword as the constructor, I believe.
+
+
+
 3. What does the return statement do?
+
+	The 'return' statement is an essential part of functions if you plan on returning 'something' form aa function.
+	As soon as the function reaches a return statement, it will return what is to be returned and stop the function, any code inside the function below an executed return statement will never be executed.
+
+
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -15,4 +29,10 @@
 
 	The function will terminate as soon as it hits the return keyword, and will therefore never get to console.log('My name is Andy');, ever. The answer is: 'inside my function'.
 
+
+
 5. Briefly describe scope in JavaScript.
+
+	Scope refers to where you define your variables.
+	Defining your variables outside, or with out the keyword 'var', the variable will be in the global (browser/window) scope.
+	Defining your variable inside a function, with the keyword 'var', will make it a function/local scope variable only accessable from within that funciton, or further nested functions.
