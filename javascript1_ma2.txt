@@ -13,5 +13,6 @@
 		}
 		myFunction();
 
+	The function will terminate as soon as it hits the return keyword, and will therefore never get to console.log('My name is Andy');, ever. The answer is: 'inside my function'.
 
 5. Briefly describe scope in JavaScript.
